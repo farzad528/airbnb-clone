@@ -1,0 +1,33 @@
+.travelCard {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  margin: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  overflow: hidden;
+  min-width: 300px;
+  width: 100%;
+}
+
+.travelCard > img {
+  width: 64px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.travelCard__info {
+  padding: 0 15px;
+}
+
+.travelCard__info > h4 {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.travelCard__info > h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
